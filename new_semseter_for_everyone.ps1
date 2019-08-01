@@ -1,4 +1,4 @@
-﻿#Application for a new semester
+﻿#folders and files for a new semester
 
 $WordApplication = New-Object -ComObject "word.application"
 $WordApplication.Visible = $false
