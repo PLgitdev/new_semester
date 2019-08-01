@@ -3,7 +3,6 @@
 $WordApplication = New-Object -ComObject "word.application"
 $WordApplication.Visible = $false
 
-#first class loop that creates a heirarchy and a word doc
 
 #classes
 $classA = "your first class here"
@@ -11,7 +10,7 @@ mkdir $HOME\Desktop\$classA
 $classB = "your second class here"
 mkdir $HOME\Desktop\$classB
 
-# these loops are for an 8 week quarter which are considered semesters at my school (-lt 9) you can edit this to make a longer to a traditional semester
+# these loops are for an 8 week quarter which are considered semesters at my school (-lt 9) you can edit this to make it longer to a traditional semester
 
 #week loops
 
